@@ -107,7 +107,12 @@
       }
 
       function init(){
-        chooseStory(maindata.story.storys[0]);
+        for(var o in maindata.story.storys){
+            if(maindata.story.storys[o].parent!=0){
+                chooseStory(maindata.story.storys[o]);
+                break;
+            }
+        }
       }
       init();
   });

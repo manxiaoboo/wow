@@ -5,6 +5,7 @@ ol,ul{list-style:none;margin:0px;padding:0px;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
+body{background-color:black;}
 /* start editing from here */
 a{text-decoration:none;}
 .txt-rt{text-align:right;}/* text align right */
@@ -115,6 +116,7 @@ line-height:30px;
 .about{
 padding:115px 0 0 0;
 font-family: "Abel-Regular";
+    color:white;
 }
 
 .about h3{
@@ -276,6 +278,13 @@ color:rgba(239, 239, 243, 0.83);
 .background {
 padding:15px 5px 15px 15px;
 background:#212020;
+filter:alpha(opacity=80); 
+-moz-opacity:0.8; 
+opacity:0.8;
+}
+.upcoming{
+    background:url('../images/bg4.jpg') center no-repeat;
+    margin-top:100px;
 }
 
 .padding-upcoming{
@@ -288,6 +297,7 @@ padding:25px 0;
 font-size:38px;
 font-family: "Abel-Regular";
 font-weight:800;
+color:white;
 }
 
 .padding-upcoming span{
@@ -366,7 +376,8 @@ left: auto;
 
 /* ---------- Our Team Starts Here ---------- */
 .our-team{
-background:#D6D3D3;
+background:#black;
+    color:white;
 }
 
 .team{
